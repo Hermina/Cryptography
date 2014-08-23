@@ -1,0 +1,9 @@
+f=open("rjecnik.txt","r")
+
+rj=[]
+for i in range(530000):
+    line=f.readline()
+    vector=line.split()
+    rj.append(vector[0])
+
+f.close()
